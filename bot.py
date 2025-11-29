@@ -5,7 +5,7 @@ from telegram import Bot, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import aiohttp
 
-TELEGRAM_TOKEN = "7524299190:AAHN4syv80fO-YIIvmhee_Q3_9NWBw2vIOE"
+TELEGRAM_TOKEN = "BOT_TOKEN"
 
 # Plataformas alternando
 PLATAFORMAS = [
@@ -123,3 +123,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
